@@ -1,6 +1,7 @@
 body {
     background-color: gray;
 	/* Use a system font, if none are available use an available sans-sarif   font */
+  background-image: url(../image/tic-tac-toe-wallpapers.jpg);
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
 		Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	margin: 0;
@@ -21,4 +22,13 @@ div {
   font-size: 8vmin;
   text-align: center;
   vertical-align: middle;
+}
+h1,h2,.board{
+  display: flex;
+  justify-content: center;
+}
+
+#reset {
+  margin: 15px 46rem  15px;
+  background-color: crimson;
 }
