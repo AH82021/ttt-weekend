@@ -24,8 +24,7 @@ let turn , winner, board;
 /*------------------------ Cached Element References ------------------------*/
 const cells =document.querySelectorAll('.cell')
 const gameBoardElement =document.querySelector('.board');
-const gameStatus= document.getElementById("message");
-console.log(gameStatus);
+const gameStatus= document.getElementById("message")
 const resetBtn =document.getElementById('reset');
 
 
